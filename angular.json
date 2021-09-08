@@ -31,8 +31,15 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/Sass"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -107,5 +114,6 @@
       }
     }
   },
+
   "defaultProject": "crud-opreation"
 }
